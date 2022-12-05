@@ -46,3 +46,5 @@ You need to change the environment variables in the app\configs.php file.
         "port" => 465,
         "email" => "something@gmail.com"
     ];
+
+Finally, you can deploy this source code into the hosting environment or do the development on your local machine.
