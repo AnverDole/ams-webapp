@@ -1,0 +1,19 @@
+@import "./colors.css";
+
+.c-card{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 4px rgba(188, 188, 188, 0.204);
+}
+
+.ancher-primary{
+    text-decoration: none;
+    color: var(--black-gray);
+}
+.ancher-primary.underlined{
+    text-decoration: underline !important;
+    color: var(--black-gray);
+}
+.ancher-primary:hover{
+    text-decoration: underline;
+}

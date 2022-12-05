@@ -1,0 +1,46 @@
+@import "./colors.css";
+
+html, body{
+    margin: 0; 
+    padding: 0;
+}
+
+body{
+    padding: 0 100px;
+    box-sizing: border-box;
+    background-color: var(--light-gray);
+}
+
+
+@media (max-width:870px){
+    body{
+        padding: 0 50px;
+    }
+}
+@media (max-width:520px){
+    body{
+        padding: 0 20px;
+    }
+}
+
+.search-block{
+    padding: 20px 20px 25px 20px;
+    box-sizing: border-box;
+    max-width: 500px;
+    width: 100%;
+}
+.search-result-block{
+    padding: 20px 20px 25px 20px;
+    box-sizing: border-box;
+}
+.search-result-block .passport-photo,
+.search-result-block .full-photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+}
+

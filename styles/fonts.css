@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root{
+    --default-font: 'Roboto Condensed', sans-serif;
+}
+
+a,
+h1, h2, h3, h4, h5, h6,
+p, span, label,
+input,
+select,
+button,
+table,
+table tr,
+table tr th,
+table tr td
+{
+    font-family: var(--default-font) !important;
+}

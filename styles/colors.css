@@ -1,0 +1,8 @@
+:root{
+    --light-gray: #F4F4F4;
+    --light-gray-alternative: #d5d5d5;
+    --secondery-color: #3DA3DD;
+    --black-gray: rgb(81, 81, 81);
+
+    --card-box-shadow: 0 0 10px 4px rgba(188, 188, 188, 0.204);
+}
